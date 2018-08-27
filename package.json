@@ -1,0 +1,27 @@
+{
+  "name": "coa-web-cache",
+  "version": "1.0.0",
+  "description": "City of Asheville web application caching library",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cityofasheville/coa-web-cache.git"
+  },
+  "author": "Eric Jackson",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/cityofasheville/coa-web-cache/issues"
+  },
+  "homepage": "https://github.com/cityofasheville/coa-web-cache#readme",
+  "dependencies": {
+    "lru-cache": "^4.1.3"
+  },
+  "peerDependencies": {
+    "coa-node-logging": "^2.0.3"
+  },
+  "devDependencies": {
+  }
+}
