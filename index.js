@@ -29,6 +29,6 @@ class CacheClient {
   }
 }
 
-module.exports = CacheClient;
+module.exports = new CacheClient();
 
 
