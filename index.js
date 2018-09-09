@@ -12,18 +12,20 @@ class CacheClient {
 
   store(key, value, hours) {
     this.cache.set(key, value);
+    return Promise.resolve('OK');
   }
 
   get(key) {
-    return this.cache.get(key);
+    return Promise.resolve(this.cache.get(key));
   }
 
   del(key) {
     this.cache.del(key);
+    return Promise.resolve(1);
   }
 
   peek(key) {
-    return this.cache.peek(key);
+    return Promise.resolve(this.cache.peek(key));
   }
 }
 
