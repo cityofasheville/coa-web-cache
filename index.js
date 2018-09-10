@@ -19,6 +19,10 @@ class CacheClient {
     return Promise.resolve(this.cache.get(key));
   }
 
+  mget(keys) {
+    return Promise.resolve(keys.map(key => this.cache.get(key)));
+  }
+
   del(key) {
     this.cache.del(key);
     return Promise.resolve(1);
