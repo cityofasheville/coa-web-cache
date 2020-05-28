@@ -7,7 +7,7 @@ const defaultOptions = {
 
 class CacheClient {
   constructor(options = null) {
-    this.cache = LRU(options || defaultOptions);
+    this.cache = new LRU(options || defaultOptions);
   }
 
   store(key, value, hours) {
