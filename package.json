@@ -14,7 +14,7 @@
   },
   "homepage": "https://github.com/cityofasheville/coa-web-cache#readme",
   "dependencies": {
-    "lru-cache": "^5.1.1"
+    "lru-cache": "^6.0.0"
   },
   "peerDependencies": {
     "coa-node-logging": "^3.1.0"
